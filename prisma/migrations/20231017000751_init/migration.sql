@@ -13,11 +13,11 @@ CREATE TABLE "Product" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
     "slug" TEXT NOT NULL,
-    "imageUrl" TEXT NOT NULL,
     "description" TEXT NOT NULL,
     "basePrice" DECIMAL(8,2) NOT NULL,
+    "imageUrl" TEXT NOT NULL,
     "categoryId" TEXT NOT NULL,
-    "discountPercentege" INTEGER NOT NULL DEFAULT 0,
+    "discountPercentage" INTEGER NOT NULL DEFAULT 0,
 
     CONSTRAINT "Product_pkey" PRIMARY KEY ("id")
 );
